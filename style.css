@@ -1,0 +1,283 @@
+@font-face {
+    font-family: montserrat;
+    src: url(Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+body{
+    min-height: 200vh;
+    background: linear-gradient(135deg, #180632,#04071d,#011023);
+    font-family: montserrat;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 50px 0 50px;
+    font-size: 14px;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    margin-right: 30px;
+}
+.navbar a:hover{
+    color: #775a9f;
+    transform: scale(1.05);
+    transition: 0.4s;
+}
+.navbar i{
+    color: #6c5093;
+}
+.navbar h3{
+    color: white;
+    display: flex;
+     justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.one h2{
+    color: white;
+    margin: 0;
+}
+.one p{
+    color: #a18ac1;
+    letter-spacing: 2px;
+}
+.one h1{
+    font-size: 45px;
+    font-weight: bold;
+    color: #6a3dd2;
+    margin: 0;
+}
+.one button{
+    width: 200px;
+    height: 50px;
+    padding: 20px;
+    background:linear-gradient(135deg,#c026d3,#7c3aed,#2563eb) ;
+    box-shadow: 2px 4px 22px rgb(50, 50, 50);
+    border-radius: 25px;
+    letter-spacing: 1px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin:20px auto;
+    gap: 10px;
+}
+.one button:hover{
+    transform: translateX(-5px);
+    box-shadow:2px 2px 18px #244181;
+}
+.one{
+    text-align: center;
+    margin-top: 30px;
+}
+.container{
+    width: 800px;
+    height: 1200px;
+    border-radius: 20px;
+    margin: 30px auto;
+    border: 1px solid #1c0937;
+    box-shadow: 2px 2px 20px #041436;
+}
+.hero-one{
+       width: 250px;
+    height: 310px;
+    border: 1px solid #472676;
+    box-shadow: 0 2px 8px #472676;
+    text-align: center;
+    background-color: #04071d;
+    letter-spacing: 2px;
+    border-radius: 25px;
+    padding: 10px;
+}
+.hero-one h2{
+    margin: 0;
+    color: #244181;
+}
+.hero-one button{
+    border: 1px solid #472676;
+    border-radius: 25px;
+    color: white;
+    background-color: #011023;
+    padding: 13px;
+    width: 150px;
+}
+.hero-one p,.hero-two p,.hero-three p,.hero-four p,.hero-five p{
+    color: gray;
+}
+.hero-one img,.hero-three img,.hero-four img,.hero-five img{
+    width: 155px;
+    height: 155px;
+}
+.hero-two{
+       width: 250px;
+    height: 300px;
+    border: 1px solid rgb(200, 163, 95);
+    box-shadow: 0 2px 8px rgb(206, 176, 120);
+    text-align: center;
+    background-color: #04071d;
+    letter-spacing: 2px;
+    border-radius: 25px;
+    padding: 10px;
+    padding-bottom: 0;
+}
+.hero-two img{
+    width: 130px;
+    height: 130px;
+    margin-top: 5px;
+}
+.hero-two h2{
+    margin: 0;
+    color: rgb(193, 153, 79);
+}
+.hero-two button{
+    border: 1px solid rgb(193, 153, 79);
+    border-radius: 25px;
+    color: white;
+    background-color: #011023;
+    padding: 13px;
+    width: 150px;
+}
+.card-one,.card-three{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 140px;
+    margin: 27px;
+}
+.hero-three{
+       width: 250px;
+    height: 320px;
+    border: 1px solid rgb(88, 173, 88);
+    box-shadow: 0 2px 8px rgb(80, 163, 240);
+    text-align: center;
+    background-color: #04071d;
+    letter-spacing: 1px;
+    border-radius: 25px;
+    padding: 10px;
+    padding-bottom: 0;
+}
+.hero-three h2{
+    margin: 0;
+    color:rgb(39, 119, 39) ;
+}
+.hero-three button{
+    border: 1px solid rgb(79, 79, 255);
+    border-radius: 25px;
+    color: white;
+    background-color: #011023;
+    padding: 13px;
+    width: 150px;
+}
+.card-two{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-four{
+       width: 250px;
+    height: 320px;
+    border: 1px solid rgb(243, 87, 87);
+    box-shadow: 0 2px 8px rgb(255, 46, 46);
+    text-align: center;
+    background-color: #04071d;
+    letter-spacing: 2px;
+    border-radius: 25px;
+    padding: 10px;
+    padding-bottom: 0;
+}
+.hero-four h2{
+    margin: 0;
+    color: rgb(69, 17, 17);
+}
+.hero-four button{
+    border: 1px solid rgb(166, 36, 36);
+    border-radius: 25px;
+    color: white;
+    background-color: #011023;
+    padding: 13px;
+    width: 150px;
+}
+.hero-five{
+       width: 250px;
+    height: 320px;
+    border: 1px solid rgb(224, 224, 133);
+    box-shadow: 0 2px 8px rgb(221, 156, 99);
+    text-align: center;
+    background-color: #04071d;
+    letter-spacing: 2px;
+    border-radius: 25px;
+    padding: 10px;
+    padding-bottom: 0;
+}
+.hero-five h2{
+    margin: 0;
+    color: rgb(143, 96, 56);
+}
+.hero-five button{
+    border: 1px solid rgb(218, 142, 75);
+    border-radius: 25px;
+    color: white;
+    background-color: #011023;
+    padding: 13px;
+    width: 150px;
+}
+footer{
+    width: 750px;
+    height: 55px;
+    border-radius: 15px;
+    box-shadow: 2px 4px 18px #180632;
+    margin: 15px auto;
+    background-color: #16072c;
+     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 290px;
+    padding: 7px;
+    margin-top: 30px;
+}
+footer i{
+    color: rgb(13, 13, 13);
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+    box-shadow: 2px 4px 22px rgb(50, 50, 50);
+    background:linear-gradient(135deg,#9331a0,#7851bb,#3a6ad1) ;
+}
+footer p{
+     color: #a18ac1;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 12px;
+}
+.foot-one,.foot-two{
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+.foot-one i,.foot-two i{
+display: flex;
+flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+footer i:hover{
+    box-shadow: 2px 4px 22px rgb(50, 50, 50);
+    background:linear-gradient(135deg,#c026d3,#7c3aed,#2563eb) ;
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+.hero-one button:hover,.hero-two button:hover,.hero-four button:hover,.hero-three button:hover,.hero-five button:hover{
+    transform: scale(1.05);
+    transition: 0.4s;
+    background-color: #0c031a;
+
+}
